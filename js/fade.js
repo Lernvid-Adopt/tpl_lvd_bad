@@ -1,0 +1,2 @@
+function sitetitle(){var fade=0,sitetitle=document.getElementById("sitetitle").style,ms=(sitetitle.opacity==0)?0:1,pace=setInterval(Fade,20);function Fade(){if(fade<100){fade+=1;if(ms)sitetitle.filter="alpha(opacity="+fade+")";else sitetitle.opacity=(fade/100)}else clearInterval(pace)}};
+window.onload=sitetitle;

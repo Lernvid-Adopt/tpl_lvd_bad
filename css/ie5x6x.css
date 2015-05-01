@@ -1,0 +1,23 @@
+﻿body { font-size: x-small; }
+/* ==============================
+   2. Zentrierung von #wrapper */
+body { 
+	text-align: center; 
+	font-size: 11px;
+}
+#container { 
+	text-align: left; 
+}
+#container, #header, #navigation, #bottom { 
+	width:980px;
+}
+#content {
+	width: 99%;
+}
+table.moduletable th, div.moduletable h3, .moduletable_text h3, .moduletable_menu h3 {
+	width: auto;
+	font-size: 11px;
+}
+#user_modules1 {
+	width: auto;
+}

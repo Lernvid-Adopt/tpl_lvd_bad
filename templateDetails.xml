@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>Bad_lernvid.com</name>
+	<creationDate>01.03.2010</creationDate>
+	<author>Juergen Koller</author>
+	<copyright>LernVid.com</copyright>
+	<authorEmail>webmaster@lernvid.com</authorEmail>
+	<authorUrl>http://www.lernvid.com</authorUrl>
+	<version>1.0</version>
+	<description>
+	<![CDATA[
+	<hr>
+	<h1 style="padding:10px;">BAD! by LernVid.com</h1>
+	<hr>
+	<p>Author <a href="http://lernvid.com" target="_blank">Lernvid.com - Lernvideos Tutorials Templates PSD-Files und mehr... </a>.</p>
+	<p style="padding:5px;">It's not allowed to delete the backlink to the autor. More informations: <a href="http://www.lernvid.com/lizenz.html" target="_blank">LernVid.com - Licence Infos</a></p>
+	<p>This template was published under Creative Commons Licence . More informations: <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank">Creative Commons Lizenz Mulilanguage </a></p>
+	<p>LernVid.com wishes you much fun with the template.</a></p>
+	<p>Support under: <a href="http://www.board.lernvid.com" target="_blank">Supportforum - LernVid.com</a></p>	
+	<hr>
+	<img src="../templates/bad_lernvid.com/template_thumbnail.png" align="left" hspace="10" style="padding:10px;" />
+	]]>  
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+		<filename>js/hover.js</filename>
+		<filename>js/fade.js</filename>
+		<filename>fl/header.swf</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+		<images>
+		<filename>images/bg.jpg</filename>
+		<filename>images/bottom.gif</filename>
+		<filename>images/button_bg.gif</filename>
+		<filename>images/container.gif</filename>
+		<filename>images/content.jpg</filename>
+		<filename>images/header_container.jpg</filename>
+		<filename>images/header.jpg</filename>
+		<filename>images/left_bottom.jpg</filename>
+		<filename>images/left_h3.gif</filename>
+		<filename>images/left_top.jpg</filename>
+		<filename>images/list.gif</filename>
+		<filename>images/list_hover.gif</filename>
+		<filename>images/menu.jpg</filename>
+		<filename>images/menu_hover.jpg</filename>
+		<filename>images/menu_li_li.jpg</filename>
+		<filename>images/menu_li_li_hover.jpg</filename>
+		<filename>images/nav.gif</filename>
+		<filename>images/nav_hover.gif</filename>
+		<filename>images/nav_li.gif</filename>
+		<filename>images/nav_li_hover.gif</filename>
+		<filename>images/sidebar_left.jpg</filename>
+		<filename>images/sidebar_right.gif</filename>
+		<filename>params.ini</filename>
+		</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/ie5x6x.css</filename>
+		<filename>css/ie7.css</filename>
+	</css>
+	<params>
+		<param type="spacer" default="Effects" />
+    	<param name="useFlashHeader" type="radio" default="1" label="Enable Flash Header?" description="Here you can on / off the Flash Header xD">
+	      <option value="0">Off</option>
+	      <option value="1">On</option>
+	    </param>
+     	<param name="useJavascript" type="radio" default="1" label="Use Javascript Effects?" description="Here you can on / off the Javascript effects in your Template">
+	      <option value="0">Off</option>
+	      <option value="1">On</option>
+	    </param>
+		<param type="spacer" default="Sitetile" />
+	   	<param name="showSitetitle" type="radio" default="1" label="Show the Joomla Sitetitle?" description="Show Joomla Configuration Sitetitle in the Header? Yes or No.">
+		  <option value="0">No</option>
+		  <option value="1">Yes</option>
+		</param>
+		<param name="FontSize" type="text" default="36" label="Sitetitle Font Size" description="Font Size of the Sitetitle in Pixel - Just play a bit with this to find out your best setting - default = 36"></param>
+		<param name="FontColor" type="text" default="#000000" label="Sitetitle Color" description="Color of the Sitetitle in Hexacode - default: #000000 = BLACK"></param>
+     	<param name="useFade" type="radio" default="0" label="Sitetitle Fade In onload?" description="Here you can on / off the Fade In effect (Javascript) for the Sitetitle in the Header">
+	      <option value="0">Off</option>
+	      <option value="1">On</option>
+	    </param>
+		<param type="spacer" default="Home Link" />
+		<param name="HomeLink" type="text" default="index.php" label="Home - Link destination" description="Enter the link desination of the Home Link in the Header"></param>
+		<param name="HomeLinkTitle" type="text" default="Home" label="Title of Home Link" description="Enter the Title of the Home Link. (shown on Mouseover)"></param>
+
+	</params>		
+	<positions>
+		<position>top</position>
+		<position>breadcrumb</position>
+		<position>footer</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user3</position>
+		<position>headmodule</position>
+	</positions>
+</install>
